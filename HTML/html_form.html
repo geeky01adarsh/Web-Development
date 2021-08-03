@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-form</title>
+</head>
+<body>
+    <h2>HTML-forms</h2>
+    <form action="backend.php">
+        <!-- here backend.php denotes where to submit form data -->
+        <label for="name">Name:</label>
+        <div>
+           <input type="text" name="Name" id="name">
+        </div>
+        <br>
+        <div> 
+            Role : <input type="text" name="Role" id="">
+        </div> <br>
+        <div>
+            <label for="car">CAR</label>
+            <select name="myCar" id="car">
+                <option value="Indica">Indica</option>
+                <option value="Swift"selected>Swift</option>
+            </select>
+        </div>
+
+        <br>
+        Email : <input type="email" name="myEmail" id=""> 
+        <br> <br>
+        <br>
+        <textarea name="area" id="" cols="30" rows="10">Write about Yourself</textarea><br>
+        URL : <input type="url" name="Url" id=""> <br> <br>
+        Image : <input type="image" src="" alt="">
+        <!-- <input type="checkbox" name="" id=""> -->
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="RESET">
+    </form>
+</body>
+</html>
