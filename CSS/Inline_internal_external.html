@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <!-- This line below is internal css -->
+    <link rel="stylesheet" href="external_css.css">
+    <style>
+        p{
+            background-color: darkcyan;
+            color: brown !important;
+        }
+    </style>
+    <!-- to make something take maximum precedence use !important -->
+    <!-- CSS written afterwards takes precedance -->
+    <!-- Inline CSS > ( External CSS = Internal CSS ) -->
+</head>
+<body>
+    <h3>This is CSS Tutorial</h3>
+    <!-- using style along with tags is known as inline css  -->
+    <p style="color: red; background-color: yellow;">This is a paragraph</p>
+    <p>This is another paragraph</p>
+</body>
+</html>
