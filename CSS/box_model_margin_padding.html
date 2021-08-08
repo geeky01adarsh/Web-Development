@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model, Margin & Padding</title>
+    <style>
+        *{
+            /* to make width not overflow even after adding/increasing padding use box-sizing*/
+            box-sizing: border-box;
+        }
+        .container {
+            color: rgb(232 230 234);
+            background-color: rgb(130 108 173);
+            border: 3px dashed rgb(121 219 79);
+            border-radius: 23px;
+            /* padding-top: 13px;
+            padding-left: 23px;
+            padding-right: 24px;
+            padding-bottom: 13px; */
+            /* padding: top right bottom left */
+            /* padding: 12px 25px 4px 43px; */
+            /* padding: y(top/bottom) x(left/right) */
+            padding: 45px 23px;
+            margin: 23px 18px;
+            width: 360px;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3>This is a heading</h3>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="first">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis inventore error velit architecto
+            maiores nihil temporibus consequuntur mollitia ad omnis non ea, quidem eaque? Fuga, totam dolorem distinctio
+            commodi sed facere recusandae tenetur sunt ducimus aliquam beatae molestiae laboriosam harum ratione ex
+            impedit vero repellat ullam nesciunt placeat. Ipsa, voluptas consectetur fuga rerum, placeat quasi nemo,
+            expedita possimus dolores omnis deserunt consequatur architecto corporis?</p>
+    </div>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="second">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis inventore error velit architecto
+            maiores nihil temporibus consequuntur mollitia ad omnis non ea, quidem eaque? Fuga, totam dolorem distinctio
+            commodi sed facere recusandae tenetur sunt ducimus aliquam beatae molestiae laboriosam harum ratione ex
+            impedit vero repellat ullam nesciunt placeat. Ipsa, voluptas consectetur fuga rerum, placeat quasi nemo,
+            expedita possimus dolores omnis deserunt consequatur architecto corporis?</p>
+    </div>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="third">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis inventore error velit architecto
+            maiores nihil temporibus consequuntur mollitia ad omnis non ea, quidem eaque? Fuga, totam dolorem distinctio
+            commodi sed facere recusandae tenetur sunt ducimus aliquam beatae molestiae laboriosam harum ratione ex
+            impedit vero repellat ullam nesciunt placeat. Ipsa, voluptas consectetur fuga rerum, placeat quasi nemo,
+            expedita possimus dolores omnis deserunt consequatur architecto corporis?</p>
+    </div>
+</body>
+
+</html>
