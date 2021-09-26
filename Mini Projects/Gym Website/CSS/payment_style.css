@@ -1,0 +1,129 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/bg.jpg') ;
+    background-size: 1500px 1000px;
+}
+.left{
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    padding:20px;
+    display: inline-block;
+    width: 15%;
+    margin-bottom: 20px;
+    /* border: 2px solid red; */
+
+}
+.right {
+    position: absolute;
+    right: 24px;
+    top: 25px;
+    padding: 20px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+.btn {
+    margin: 12px;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    border: 2px solid rgb(4, 0, 255);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn:hover {
+
+    background-color: rgb(88, 88, 88);
+}
+
+.left img{
+    margin-left: 15px;
+    padding-left: 10px;
+    width: 150px;
+    filter: invert(100%);
+}
+.left div{
+    font-size: 30px;
+    text-decoration: bold;
+    font-style: italic;
+    padding-left: 12px;
+}
+.container{
+    display: inline block;
+    border: 2px solid gray;
+    margin-top: 250px;
+    padding: 72px 52px;
+    width:33%;
+    border-radius: 20px;
+    font-size: 23px;
+}
+.form_group input{
+    background-color: lightgray;
+    float: center;
+    width: 95%;
+    height: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.form_group input{
+    background-color: white;
+    float: center;
+    width: 65%;
+    height: 40px;
+    font-family: 'Lobster', cursive;
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.form_group .gender{
+    background-color: white;
+    float: center;
+    width: 65%;
+    height: 40px;
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+.form_group input:focus{
+    background-color: lightgrey;
+    float: center;
+    width: 95%;
+    height: 40px;
+    font-family: 'Lobster', cursive;
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.form_group .gender:focus{
+    background-color: lightgrey;
+    float: center;
+    width: 95%;
+    height: 40px;
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+#submit{
+    display: block;
+    width: 30%;
+    margin: auto;
+    font-size: 39px;
+}
+#submit :hover{
+    cursor: pointer;
+    background: #a74949;
+    color:rgb(105, 13, 13);
+}

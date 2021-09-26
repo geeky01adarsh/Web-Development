@@ -1,0 +1,190 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/bg.jpg');
+    background-size: 2000px 1800px;
+}
+
+.left {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    padding: 20px;
+    display: inline-block;
+    width: 15%;
+    /* border: 2px solid red; */
+
+}
+
+.left img {
+    margin-left: 15px;
+    padding-left: 10px;
+    width: 150px;
+    filter: invert(100%);
+}
+
+.left div {
+    font-size: 30px;
+    text-decoration: bold;
+    font-style: italic;
+    padding-left: 12px;
+}
+
+.right {
+    position: absolute;
+    right: 24px;
+    top: 25px;
+    padding: 20px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+.mid {
+    display: block;
+    position: sticky;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 12px;
+    /* border: 6px solid black; */
+    font-size: 34px;
+    font-style: bold;
+
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    color: white;
+    margin: 8px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: yellow;
+    text-decoration: underline;
+
+}
+
+.btn {
+    margin: 12px;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    border: 2px solid rgb(4, 0, 255);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn:hover {
+
+    background-color: rgb(88, 88, 88);
+}
+
+.container {
+    border: 2px solid gray;
+    margin: 68px 39px;
+    padding: 72px 52px;
+    width: 33%;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
+.form_group {
+    float: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 70%;
+    float: center;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    margin-left: 65px;
+    display: block;
+}
+
+.container {
+    text-align: center;
+}
+
+.form_group input {
+    background-color: lightgray;
+    float: center;
+    width: 95%;
+    height: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form_group input[type="text"],.form_group input[type="number"],.form_group input[type="email"] {
+    background-color: white;
+    float: center;
+    width: 65%;
+    height: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.form_group input[type="text"]:focus,.form_group input[type="number"]:focus,.form_group input[type="email"]:focus {
+    background-color: lightgray;
+    float: center;
+    width: 95%;
+    height: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/* #submit{
+    margin-left: 165px;
+    align-items: center;
+    
+} */
+#submit {
+    display: block;
+    width: 30%;
+    margin: auto;
+    font-size: 39px;
+}
+
+#submit :hover {
+    cursor: pointer;
+    color: red;
+}
+
+#address {
+    background-color: white;
+    float: center;
+    padding-top: 25px;
+    width: 75%;
+    height: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+#address:focus {
+    background-color: lightgray;
+    float: center;
+    padding-top: 25px;
+    width: 95%;
+    height: 80px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+}
