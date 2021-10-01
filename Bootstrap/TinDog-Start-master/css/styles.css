@@ -8,14 +8,14 @@
 }
 
 #logo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
 }
 
 #heading-1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 
@@ -24,10 +24,18 @@
 }
 
 
+.svg-img{
+    /* height: 18px; */
+    padding: 0;
+    margin: 0;
+    width: 12%;
+    height: 5%;
+}
+
 /* Navigation bar */
 
 .navbar {
-    padding: 0 0 4.5rem;
+    padding-bottom: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -58,5 +66,38 @@
 
 .title-img{
     width: 60%;
-    transform: rotate(20deg);
+    transform: rotate(25deg);
+}
+
+
+
+
+
+/* Features-section */
+
+#features{
+    padding: 7% 15%; 
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box.h3{
+    font-family: 'Montserrat-Bold';
+    /* color: ; */
+}
+
+.feature-box.p{
+    color: #8f8f8f;
+}
+
+.feat-icon{
+    color: rgb(255, 158, 1);
+    margin-bottom: 1rem;
+}
+
+.feat-icon:hover{
+    color: #e05f08;
 }
