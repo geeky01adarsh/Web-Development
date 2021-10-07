@@ -4,11 +4,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-h2{
+h2, h3{
     font-family: 'Montserrat-Bold';
     font-size: 3rem;
     line-height: 1.5;
 }
+
 
 /* title section  */
 
@@ -116,7 +117,7 @@ h2{
 /* Testimonial Section */
 
 #testimonials{
-    padding: 7% 15%;
+    /* padding: 7% 15%; */
     text-align: center;
     background-color: #e46f21;
     color: #fff;
@@ -128,14 +129,32 @@ h2{
     border-radius: 100%;
 }
 
+.carousel-item{
+    padding: 7% 15%;
+}
+
 /* Press section */
 
 #press{
     padding: 7% 15%;
     background-color: #e46f21;
+    text-align: center;
 }
+
+
 
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 4%;
+    text-align: center;
+}
+
+.pricing-cols{
+    padding: 3% 2%;
 }
