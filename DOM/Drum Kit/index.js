@@ -1,11 +1,22 @@
 for (var i = 0; i < document.getElementsByClassName("drum").length; i++) {
     document
-        .getElementsByClassName("drum")[i].addEventListener("click", handleClick);
+        .getElementsByClassName("drum")[i].addEventListener("click", function (){
+            var alpha = this.innerHTML;
+            handleClick(alpha);
+        });
 }
 
-function handleClick() {
-    var alpha = this.innerHTML;
-    console.log(alpha);
+// function Audio(loc){
+//     this.loc = loc;
+//     this.play = function(){ 
+//     }
+// }
+
+addEventListener("keydown", function (event){
+    handleClick(event.key);
+})
+
+function handleClick(alpha) {
     switch (alpha) {
         case "w":
             var audio = new Audio("sounds/-1.mp3");
@@ -46,3 +57,4 @@ function handleClick() {
             console.log("wrong button");
     }
 }
+
