@@ -3,6 +3,7 @@ for (var i = 0; i < document.getElementsByClassName("drum").length; i++) {
         .getElementsByClassName("drum")[i].addEventListener("click", function (){
             var alpha = this.innerHTML;
             handleClick(alpha);
+            btnam(alpha);
         });
 }
 
@@ -14,12 +15,13 @@ for (var i = 0; i < document.getElementsByClassName("drum").length; i++) {
 
 addEventListener("keydown", function (event){
     handleClick(event.key);
+    btnam(event.key);
 })
 
 function handleClick(alpha) {
     switch (alpha) {
         case "w":
-            var audio = new Audio("sounds/-1.mp3");
+            var audio = new Audio("sounds/tom-1.mp3");
             audio.play();
             break;
 
@@ -58,3 +60,11 @@ function handleClick(alpha) {
     }
 }
 
+function btnam(btn){
+    var active = document.querySelector("."+btn);
+    console.log(active);
+    document.getElementById(btn).classList.add("pressed");
+    setTimeout(function(){
+        document.getElementById(btn).classList.remove("pressed");
+    });
+}
