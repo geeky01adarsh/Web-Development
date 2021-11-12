@@ -1,0 +1,67 @@
+/*  Tag Selector */
+
+*{
+    background-color: hsl(225, 100%, 98%); 
+    font-family: 'Red Hat Display', sans-serif;   
+}
+.text{
+    
+}
+
+h3{
+    color: hsl(223, 47%, 23%);
+    background-color: white;
+}
+
+/* image selectors */
+
+#backgroud-dektop{
+    position: relative;  
+    top: 0;
+    left: 0; 
+}
+
+#hero{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 420px;
+    /* width: 50%; */
+    border-radius: 10px 10px 0 0;
+}
+
+/* class selector */
+
+.box{
+    /* position: absolute; */
+    text-align: center;
+    
+}
+
+/* text */
+
+.text{
+    /* position: relative; */
+    background-color: white;
+    position: absolute;
+    left: 420px;
+    top: 270px;
+    width: 410px;
+    padding: 20px;
+}
+
+/* id selectors */
+
+#message{
+    padding : 10px 60px;
+    font-weight: 100;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.plan{
+    padding:25px;
+    top: 300px;
+    left: 420px;     
+}
