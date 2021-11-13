@@ -1,0 +1,13 @@
+body{
+    background-color: red;
+}
+
+.big-title{
+    font-size: 100px;
+    font-family: cursive;
+}
+
+.new{
+    background-color: aqua;
+    color: rgb(38, 97, 98);
+}
