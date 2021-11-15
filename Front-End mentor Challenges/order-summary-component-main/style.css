@@ -1,11 +1,16 @@
+/* media query */
+@media screen 
+  and (min-device-width: 400px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
 /*  Tag Selector */
 
 *{
     background-color: hsl(225, 100%, 98%); 
     font-family: 'Red Hat Display', sans-serif;   
-}
-.text{
-    
 }
 
 h3{
@@ -25,7 +30,7 @@ h3{
     position: absolute;
     text-align: center;
     top: 50px;
-    left: 420px;
+    left: 460px;
     /* width: 50%; */
     border-radius: 10px 10px 0 0;
 }
@@ -33,9 +38,7 @@ h3{
 /* class selector */
 
 .box{
-    /* position: absolute; */
     text-align: center;
-    
 }
 
 /* text */
@@ -44,7 +47,7 @@ h3{
     /* position: relative; */
     background-color: white;
     position: absolute;
-    left: 420px;
+    left: 460px;
     top: 270px;
     width: 410px;
     padding: 20px;
@@ -60,8 +63,56 @@ h3{
 }
 
 
-.plan{
-    padding:25px;
-    top: 300px;
-    left: 420px;     
+.card{
+    text-align: left;
+    padding: 12px;
+}
+
+#plan-icon{
+    position: relative;
+    align-items: left;
+    padding: 0;
+}
+
+#plan-name{
+    align-items: left;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 6px;
+    padding-left: 15px;
+}
+
+#cost{
+    position: absolute;
+    margin-top: 29px;
+    padding-left: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+#change{
+    position: absolute;
+    text-align: right;
+    margin-left: 270px;
+    text-decoration: underline;
+    margin-top: 15px;
+    color: hsl(245, 75%, 52%);
+}
+
+#payment{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 14px;
+    margin: 16px;
+    border-radius: 10px;
+}
+
+#cancel{
+    color: hsl(224, 23%, 55%);
+    padding: 12px;
+}
+
+/* hover state */
+
+#change:hover, #payment:hover, #cancel:hover{
+    cursor: pointer;
 }
